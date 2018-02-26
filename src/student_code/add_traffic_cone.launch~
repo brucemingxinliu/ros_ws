@@ -1,0 +1,4 @@
+<launch>
+<!--x,y,z = 1.028, -0.11, 1 rpy = 0,0,0.43-->
+<node name="spawn_traffic_cone" pkg="traffic_cone" type="spawn_model" args=" -file $(find exmpl_models)/traffic_cone/traffic_cone.sdf -sdf      -model rect_prism " />
+</launch>
